@@ -10,6 +10,7 @@ public class BallSpawner : MonoBehaviour
     private float sabitZ = 0f;
     
     public float SpawnSuresi = 1.0f;
+    // Save
     
     void Start()
     {

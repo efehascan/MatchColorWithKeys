@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball:
   - {fileID: 8118752898740736888, guid: 90d5638d5aa53bb48b4afacb0263c9b3, type: 3}
-  SpawnSuresi: 4
+  SpawnSuresi: 1
 --- !u!4 &243156247
 Transform:
   m_ObjectHideFlags: 0
@@ -272,14 +272,14 @@ RectTransform:
   m_GameObject: {fileID: 664596721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 920224280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500.6, y: -288.1999}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 172.3, y: 37.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &664596723
@@ -315,9 +315,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: 0
-
-'
+  m_Text: "Score: 0  \n"
 --- !u!222 &664596724
 CanvasRenderer:
   m_ObjectHideFlags: 0
